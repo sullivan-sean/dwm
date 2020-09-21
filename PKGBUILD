@@ -25,6 +25,6 @@ package() {
 	make PREFIX=/usr DESTDIR="$pkgdir/" install
   install $installopts LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 	install $installopts README "${pkgdir}/usr/share/doc/${pkgname}/README"
-	install $installopts "$srcdir/dwm.desktop" "${pkgdir}/usr/share/xsessions/dwm.desktop"
+	install $installopts dwm.desktop "${pkgdir}/usr/share/xsessions/dwm.desktop"
 }
 
