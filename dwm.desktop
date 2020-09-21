@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=XSession
+Exec=dwm
+Name=DWM-DE
+Comment=Dynamic window manager DE
+Encoding=UTF-8
